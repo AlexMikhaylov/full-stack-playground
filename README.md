@@ -1,1 +1,1 @@
-# full-stack-playground
+# Full Stack Playground Project
