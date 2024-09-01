@@ -1,4 +1,4 @@
-package com.example.backend.designpatterns.factory;
+package com.example.backend.designpatterns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
