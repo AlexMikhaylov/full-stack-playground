@@ -6,7 +6,6 @@ import com.example.backend.designpatterns.factory.connectors.APIConnector;
 public abstract class APIConnectorFactory {
     protected abstract APIConnector createAPIConnector();
 
-    // Business logic using the product object
     public void connectAndFetchData() {
         // create a product object
         APIConnector connector = createAPIConnector();
