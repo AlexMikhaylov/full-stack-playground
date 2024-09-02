@@ -1,6 +1,6 @@
 package com.example.backend.designpatterns.factory.factories;
 
-import com.example.backend.designpatterns.factory.connectors.APIConnector;
+import com.example.backend.designpatterns.interfaces.APIConnector;
 
 // creator class
 public abstract class APIConnectorFactory {

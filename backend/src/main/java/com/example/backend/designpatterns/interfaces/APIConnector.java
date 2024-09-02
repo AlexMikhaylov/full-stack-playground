@@ -1,4 +1,4 @@
-package com.example.backend.designpatterns.factory.connectors;
+package com.example.backend.designpatterns.interfaces;
 
 public interface APIConnector {
     void connect();
