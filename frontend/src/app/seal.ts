@@ -1,4 +1,4 @@
-export interface Hero {
+export interface Seal {
     id: number;
     name: string;
 }

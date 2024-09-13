@@ -1,0 +1,18 @@
+<h2>My Seals</h2>
+<ul class="seals">
+    <li *ngFor="let seal of seals">
+        <button [class.selected]="seal === selectedSeal" type="button" (click)="onSelect(seal)">
+            <span class="badge">{{seal.id}}</span>
+            <span class="name">{{seal.name}}</span>
+        </button>
+    </li>
+</ul>
+
+<div *ngIf="selectedSeal">
+    <h2>{{selectedSeal.name | uppercase}} Details</h2>
+    <div>id: {{selectedSeal.id}}</div>
+    <div>
+        <label for="seal-name">Seal name: </label>
+        <input id="seal-name" [(ngModel)]="selectedSeal.name" placeholder="name">
+    </div>
+</div>
